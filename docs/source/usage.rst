@@ -17,9 +17,7 @@ Converting | Length
 
 SAconvert has many converting options. In this case, we will use 
 the LengthConverter. You can use the ``LengthConverter`` class to
-specify the unit you want to convert from:
-
-.. autofunction:: LengthConverter
+specify the unit you want to convert from.
 
 There are 2 parameters for the ``LengthConverter`` class. The ``value`` parameter should be a
 float (a whole number or a decimal number) specifying how many of those units you want to convert to. 
