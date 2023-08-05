@@ -23,8 +23,9 @@ specify the unit you want to convert from:
 
 There are 2 parameters for the ``LengthConverter`` class. The ``value`` parameter should be a
 float (a whole number or a decimal number) specifying how many of those units you want to convert to. 
-Otherwise, :py:func:`LengthConverter`will return an error. The ``unit`` parameter should be a string.
+Otherwise, ``LengthConverter`` will return an error. The ``unit`` parameter should be a string.
 It will specify the unit name you want to convert from. The current units supported are:
+
 - ``Meter``
 - ``Kilometer``
 - ``Centimeter``
@@ -36,10 +37,14 @@ It will specify the unit name you want to convert from. The current units suppor
 - ``Foot``
 - ``Inch``
 - ``Light Year``
+
 Make sure the first letter of the unit is capitalized as shown above.
 If not, it will return a ValueError. Here is an example of how you should
 define the unit(s) you want to convert from:
->>> LengthConverter(1, "Yard")
+
+.. code-block:: python
+
+   LengthConverter(1, "Yard")
 
 Converting to another unit is simple. Just add a function to it.
 Here is a list of the examples of all the units you 
@@ -58,7 +63,10 @@ can convert to:
 - ``to_light_year()``
 
 Here is an example to convert a unit to another:
->>> LengthConverter(1, "Yard").to_inch()
+
+.. code-block:: python
+
+   LengthConverter(1, "Yard").to_inch()
 
 Here is the final code on how to use LengthConverter:
 
