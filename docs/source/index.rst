@@ -1,17 +1,16 @@
-Welcome to Lumache's documentation!
+Welcome to SAconvert's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+**SAconvert** is a Python library for everyone 
+that needs conversions in their projects.
+With `accurate` conversions,
+SAconvert is the way to go for all your
+conversion needs.
 
 .. note::
 
-   This project is under active development.
+   With more conversions coming soon, SAconvert only supports length and width
+   conversions.
 
 Contents
 --------
